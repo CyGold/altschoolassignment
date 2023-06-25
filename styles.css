@@ -197,6 +197,7 @@
     position: absolute;
     top: 180px;
     left: 390px;
+    z-index: +1;
   }
   
   .possibilities-con {
