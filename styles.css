@@ -123,7 +123,7 @@
   }
   
   .blue {
-    color: blue;
+    color: #005AE2;
   }
   
   .affer-line {
@@ -243,7 +243,7 @@
   
   .Why-choose-con {
     display: flex;
-    padding: 50px;
+    padding: 50px 5px 50px 5px;
   }
   
   .Why-choose-con-text-head {
@@ -280,7 +280,7 @@
   
   .Why-choose-head {
     font-family: 'Gilroy-Bold';
-    font-size: 32px;
+    font-size: 29px;
     line-height: 28px;
     color: #141414;
     margin-bottom: 20px;
@@ -316,6 +316,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: center;
+
   }
   
   .grid2x2 > div {
@@ -327,6 +329,7 @@
   
   .grid2x2 > div > div {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
   }
